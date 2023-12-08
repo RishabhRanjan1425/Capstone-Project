@@ -6,7 +6,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input, decode_pred
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model('C:/Users/nitesh yadav/Desktop/Ct_Scan_Covid.h5')
+model = tf.keras.models.load_model(C:\Users\DELL\Desktop\datasets\Capstone_project')
 def preprocess_image(img):
     # Resize the image to the target size (224, 224)
     img = cv2.resize(img, (180, 180))
